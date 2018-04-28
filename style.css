@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('/Users/laurasmith/Developer/uofu/GitHub/Homework/homework_02/Bootstrap-Portfolio/intersection.png');
+    background: url('/Users/laurasmith/Developer/uofu/GitHub/Homework/homework_02/Bootstrap-Portfolio/images/intersection.png');
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,11 +20,10 @@ body {
     position: fixed;
     width: 100%;
 }
+
 .navbar {
     padding: 0;
     margin: 0;
-    height: 90px;
-    width: 100%;
 }
 
 .navbar-brand {
@@ -82,7 +81,28 @@ img {
     margin-right: 25px;
 }
 
-.card {
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    z-index: 99;
+    width: 300px;
+}
+
+.card-body {
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+}
+
+.card-img-top {
+    z-index: 0;
+    width: 300px;
+}
+
+.cardf {
     background: #666666;
     color: #ffffff;
     clear: both;
@@ -90,6 +110,11 @@ img {
     color: #cccccc;
     font-size: 12px;
     text-align: center;
+}
+
+.card {
+    border: 0;
+    z-index: 0;
 }
 
 input[type=submit] {
